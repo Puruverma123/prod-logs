@@ -1,0 +1,67 @@
+{
+  "name": "prod-logs",
+  "version": "1.0.2",
+  "description": "A colorful, customizable Node.js logger for developers with formatted console output, log levels, timestamps, and terminal colors.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "prod-logs",
+    "production-logger",
+    "node-logger",
+    "nodejs-logger",
+    "javascript-logger",
+    "typescript-logger",
+    "logging",
+    "logger",
+    "console-logger",
+    "terminal-logger",
+    "cli-logger",
+    "colored-logs",
+    "color-logger",
+    "chalk",
+    "pretty-logger",
+    "log-formatter",
+    "log-formatting",
+    "console-formatting",
+    "structured-logging",
+    "developer-tools",
+    "debugging",
+    "debug-logger",
+    "error-logging",
+    "info-logging",
+    "warning-logger",
+    "timestamp-logger",
+    "terminal-colors",
+    "command-line-tools",
+    "npm-package",
+    "developer-experience"
+  ],
+  "author": "Puru Verma - puruverma1234@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/Puruverma123/prod-logs#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Puruverma123/prod-logs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Puruverma123/prod-logs/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
